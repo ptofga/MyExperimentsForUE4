@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyExperiments.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1FE3F59B-E4D4-4704-9324-C3572D06BCFD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyExperiments.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyExperimentsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7AA0B742-6F81-40C3-8103-ABE3D47ABEBD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyExperiments">
+      <UniqueIdentifier>{1936CDF8-8CAE-4FD3-9E9E-9F05F1B90612}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyExperiments\MyExperiments.Build.cs">
+      <Filter>Source\MyExperiments</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyExperiments\MyExperiments.cpp">
+      <Filter>Source\MyExperiments</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyExperiments\MyExperiments.h">
+      <Filter>Source\MyExperiments</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MyExperiments\MyBlueprintFunctionLibrary.cpp">
+      <Filter>Source\MyExperiments</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MyExperiments\MyBlueprintFunctionLibrary.h">
+      <Filter>Source\MyExperiments</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

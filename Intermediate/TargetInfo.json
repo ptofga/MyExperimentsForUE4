@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyExperiments",
+			"Path": "C:\\Users\\tpeng\\Documents\\Unreal Projects\\MyExperiments\\Source\\MyExperiments.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyExperimentsEditor",
+			"Path": "C:\\Users\\tpeng\\Documents\\Unreal Projects\\MyExperiments\\Source\\MyExperimentsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
